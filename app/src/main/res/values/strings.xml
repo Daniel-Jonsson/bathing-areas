@@ -1,0 +1,108 @@
+<resources>
+    <!-- App configuration -->
+
+    <string name="app_name">Bathing Sites</string>
+
+    <!-- ACTIVITIES -->
+
+    <!-- Main activity -->
+    <string name="action_button_content_desc"> Add a bathing site.</string>
+    <string name="permission_message">Precise location is needed for this functionality. Allow it by going into the apps settings.</string>
+    <string name="dialog_rationale_title">Permission needed</string>
+    <string name="dialog_rationale_message">To show the nearby bathing sites, your precise location is needed. Please allow precise locations.</string>
+    <!-- CUSTOM VIEWS -->
+
+    <!-- Bathingsites View -->
+
+    <string name="amount_bathingsites">%d bathing sites</string>
+    <string name="bathingsites_content_desc">Image showing a bathtub</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- MENUS -->
+
+    <!-- Main Menu Start -->
+    <string name="settings_item">Settings</string>
+    <string name="download_item">Download</string>
+    <string name="map_item">Map</string>
+    <!-- Main Menu End -->
+
+    <!-- Add Bathing Site Menu Start -->
+    <string name="clear_fields">Clear</string>
+    <string name="add_bathing_site">Save</string>
+    <string name="view_weather">Show Weather</string>
+
+    <!-- Add Bathing Site Menu End -->
+
+    <!-- FRAGMENTS -->
+
+    <!-- Add Bathing Site Fragment Start -->
+
+    <!-- fields -->
+    <string name="name_field">Name:</string>
+    <string name="desc_field">Description:</string>
+    <string name="address_field">Address:</string>
+    <string name="latitude_field">Latitude:</string>
+    <string name="longitude_field">Longitude:</string>
+    <string name="grade_field">Grade:</string>
+    <string name="water_temp_field">Water temp:</string>
+    <string name="date_field">Date for temp:</string>
+    <string name="rating_content_desc">Rating for bath site</string>
+
+    <!-- Obtaining weather data error -->
+    <string name="weather_data_error">Error obtaining weather data.</string>
+    <string name="weather_icon_error">Error obtaining weather icon.</string>
+    <!-- invalidation text -->
+    <string name="invalid_field">%s is required.</string>
+
+    <!-- Alert Dialog -->
+    <string name="added_site_dialog_title">Added Following Bathing Site</string>
+    <string name="added_site_dialog_message">
+        Name: %s\n
+        Description: %s\n
+        Address: %s\n
+        Latitude: %s\n
+        Longitude: %s\n
+        Grade: %s\n
+        Water temp: %s\n
+        Date for temp: %s
+    </string>
+
+    <!-- Progress Dialog -->
+
+    <string name="progress_dialog_text">Getting current weather…</string>
+    <string name="duplicate_bathing_site_error">Bathing site with this lat/long already exists</string>
+    <string name="unknown_error">Unknown error occurred.</string>
+    <string name="saved_to_database">Saved to database</string>
+    <string name="saved_to_database_default">Saved to database with computed lat/long</string>
+
+    <!-- Add Bathing Site Fragment End -->
+
+    <!-- Show Weather-Dialog Fragment -->
+    <string name="weather_dialog_title">Current weather</string>
+    <string name="weather_dialog_message">%s\n%s\u2103</string>
+    <string name="weather_icon_desc">Weather icon</string>
+    <string name="invalid_form_weather">To show current weather, provide address and/or longitude/latitude coordinates.</string>
+
+
+    <!-- Settings activity -->
+    <string name="weather_setting_url_key">weather_setting_url</string>
+    <string name="weather_setting_url_default">https://dt031g.programvaruteknik.nu/bathingsites/weather.php</string>
+    <string name="weather_url_title">Fetch weather data from</string>
+    <string name="download_setting_url_default">https://dt031g.programvaruteknik.nu/bathingsites/download/</string>
+    <string name="download_url_title">Download bathing sites data from</string>
+    <string name="download_setting_url_key">download_setting_url</string>
+    <string name="distance_map_title">Nearby bathing site bound(in km)</string>
+    <string name="distance_map_default">50</string>
+    <string name="distance_map_setting_key">map_distance_setting_url</string>
+
+
+    <!-- Download activity -->
+    <string name="downloading_file">Downloading %s…</string>
+    <string name="error_downloading">Error while downloading %s</string>
+    <string name="http_resp_error">Http response error: %d</string>
+    <string name="current_progress">%d%s</string>
+
+
+    <string name="no_bathing_site_to_show">No bathing site to show.</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

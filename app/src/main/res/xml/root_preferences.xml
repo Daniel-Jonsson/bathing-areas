@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        android:key="weather_setting_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/sun_compass"
+        app:defaultValue="@string/weather_setting_url_default"
+        android:selectAllOnFocus="true"
+        app:useSimpleSummaryProvider="true"
+        android:singleLine="true"
+        android:title="@string/weather_url_title" />
+
+    <EditTextPreference
+        android:key="download_setting_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/download"
+        app:defaultValue="@string/download_setting_url_default"
+        android:selectAllOnFocus="true"
+        app:useSimpleSummaryProvider="true"
+        android:singleLine="true"
+        android:title="@string/download_url_title" />
+
+    <EditTextPreference
+        android:key="map_distance_setting_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/map_distance"
+        app:defaultValue="@string/distance_map_default"
+        android:selectAllOnFocus="true"
+        app:useSimpleSummaryProvider="true"
+        android:singleLine="true"
+        android:title="@string/distance_map_title" />
+</PreferenceScreen>
